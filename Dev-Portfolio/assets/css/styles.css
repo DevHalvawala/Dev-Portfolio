@@ -546,7 +546,7 @@ qualification__name{
 
 .projects__img{
   width: 250px;
-  border-radius: 75rem;
+  border-radius: .75rem;
   margin-bottom: 1.25rem;
 }
 
@@ -558,7 +558,7 @@ qualification__name{
 .projects__title{
   font-size: var(--h2-font-size);
   margin-bottom: 1.25rem;
-  margin: .5rem 1.25rem;
+  margin: .5rem 0 1.25rem;
 }
 
 .projects__button{
@@ -571,7 +571,7 @@ qualification__name{
 
 .projects__button i{
   font-size: 1rem;
-  transition: target .3s;
+  transition: transform .3s;
 }
 
 .projects__button:hover i{
