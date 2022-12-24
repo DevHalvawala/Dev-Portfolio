@@ -821,6 +821,9 @@ qualification__name{
   left: 1.5rem;
 }
 
+
+
+/* Status color */
 .color-red{
   color: hsl(4, 71%, 50%);
 }
@@ -828,9 +831,6 @@ qualification__name{
 .color-blue{
   color: hsl(207, 56%, 45%);
 }
-
-/* Status color */
-
 
 /*=============== FOOTER ===============*/
 

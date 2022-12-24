@@ -72,9 +72,24 @@ const sendEmail = (e) =>{
       contactMessage.classList.add('color-red')
 
       //Show Message
-      contactMessage.textContent = 'Write all the input fields'
+      contactMessage.textContent = 'Write all the input fields 📩'
     }else{
-      emailjs.sendForm('service_fyikh1m','','','')
+      emailjs.sendForm('service_fyikh1m','template_ipy5lbl','#contact-form','tkVxo9bcntqthLHcO')
+      .then(() =>{
+
+        contactMessage.classList.add('color-blue')
+        contactMessage.textContent = 'Message sent ✅'
+
+        setTimeout(() => {
+          contactMessage.textContent = ''
+        }, 5000)
+      }, (error) =>{
+          alert('OOPS! SOMETHING HAS FAILED...', error)
+      })
+
+      contactName.value = ''
+      contactEmail.value = ''
+      contactProject.value = ''
     }
 }
 contactForm.addEventListener('submit', sendEmail)
