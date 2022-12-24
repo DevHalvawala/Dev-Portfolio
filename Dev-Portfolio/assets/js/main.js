@@ -63,6 +63,21 @@ const contactForm = document.getElementById('contact-form'),
       contactProject = document.getElementById('contact-project'),
       contactMessage = document.getElementById('contact-message')
 
+const sendEmail = (e) =>{
+    e.preventDefault()
+
+    if(contactName.value === '' || contactEmail.value === '' || contactProject.value === ''){
+
+      contactMessage.classList.remove('color-blue')
+      contactMessage.classList.add('color-red')
+
+      //Show Message
+      contactMessage.textContent = 'Write all the input fields'
+    }else{
+      emailjs.sendForm('service_fyikh1m','','','')
+    }
+}
+contactForm.addEventListener('submit', sendEmail)
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
