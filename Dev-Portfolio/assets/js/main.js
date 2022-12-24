@@ -19,7 +19,14 @@ if(navClose){
 }
 
 /*=============== REMOVE MENU MOBILE ===============*/
+const navLink = document.querySelectorAll('.nav__Link')
 
+const LinkAction = () =>{
+  const navMenu = document.getElementById('nav-menu')
+
+  navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SWIPER PROJECTS ===============*/
 let swiperProjects = new Swiper(".projects__container", {
