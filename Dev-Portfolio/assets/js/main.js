@@ -57,7 +57,11 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
       });
 
 /*=============== EMAIL JS ===============*/
-
+const contactForm = document.getElementById('contact-form'),
+      contactName = document.getElementById('contact-name'),
+      contactEmail = document.getElementById('contact-email'),
+      contactProject = document.getElementById('contact-project'),
+      contactMessage = document.getElementById('contact-message')
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
