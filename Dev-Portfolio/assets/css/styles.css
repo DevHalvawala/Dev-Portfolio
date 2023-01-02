@@ -1042,6 +1042,114 @@ qualification__name{
     order: 3;
     text-align: right;
   }
+
+  .home__info{
+    margin-top: 10rem;
+  }
+
+  .home__info-description{
+    padding-right: 0;
+  }
+
+  .skills__container,
+  .qualification__container,
+  .services__container,
+  .contact__container{
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .skills__container,
+  .services__container{
+    column-gap: 5rem;
+  }
+
+  .qualification__container{
+    justify-content: center;
+    column-gap: 10rem;
+  }
+
+  .projects__container{
+    width: 500px;
+  }
+
+  .contact__form{
+    width: 360px;
+  }
+
+  .contact__container{
+    justify-content: center;
+    column-gap: 8rem;
+  }
 }
 
 /* For large devices */
+@media screen and (min-width: 1023px){
+  .header{
+    top: 0;
+    bottom: initial;
+    background-color: var(--body-color);
+    transition: .4s;
+  }
+
+  .nav{
+    width: initial;
+    height: calc(var(--header-height) + 1.5rem);
+    box-shadow: none;
+    border-radius: 0;
+    column-gap: 3rem;
+    margin-inline: 1.5rem;
+    padding: 0;
+  }
+
+  .nav__link i,
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__menu{
+    width: initial;
+    margin-left: auto;
+    background-color: var(--body-color);
+    transition: background .4s;
+  }
+
+  .nav__list{
+    display: flex;
+  }
+
+  .nav__link{
+    font-size: var(--normal-font-size);
+  }
+
+  .dark-theme .nav,
+  .dark-theme .nav__menu{
+    background-color: var(--body-color);
+    box-shadow: none;
+  }
+
+  .change-theme{
+    color: var(--text-color-light);
+  }
+
+  .change-theme:hover{
+    color: var(--title-color);
+  }
+
+  .section{
+    padding-block: 8rem 0;
+  }
+
+  .home__title{
+    font-size: 2.25rem;
+  }
+
+  .scrollup{
+    right: 3rem;
+  }
+
+  .show-scroll{
+    bottom: 5rem;
+  }
+}
+
