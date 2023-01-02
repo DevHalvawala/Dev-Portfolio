@@ -1188,6 +1188,48 @@ qualification__name{
     height: 520px;
     border-radius: 10.6rem;
   }
+  .home__perfil img{
+    width: 300px;
+  }
+  .home__shape-wawes{
+    width: 100px;
+    left: -4rem;
+    top: 10rem;
+  }
+  .home__shape-circle{
+    width: 250px;
+    bottom: -1rem;
+    right: -5rem;
+  }
+  .home__data{
+    row-gap: 2.5rem;
+  }
+  .home__social{
+    column-gap: 2rem;
+  }
+  .home__social-link{
+    font-size: 1.5rem;
+  }
+  .home__info{
+    grid-template-columns:repeat(3, 130px);
+    row-gap: 4rem;
+    margin-top: 16rem;
+  }
+  .skills__container{
+    column-gap: 10rem;
+  }
+  .skills__title{
+    margin-bottom: 3rem;
+  }
+  .skills__title i{
+    font-size: 1.25rem;
+  }
+  .skills__name{
+    font-size: var(--normal-font-size);
+  }
+  .skills__info{
+    gap: 3rem;
+  }
 }
 
 
