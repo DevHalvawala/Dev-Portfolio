@@ -1185,7 +1185,7 @@ qualification__name{
     border-radius: 12.5rem;
   }
   .home__perfil{
-    width: 340;
+    width: 340px;
     height: 520px;
     border-radius: 10.6rem;
   }
@@ -1212,7 +1212,7 @@ qualification__name{
     font-size: 1.5rem;
   }
   .home__info{
-    grid-template-columns:repeat(3, 130px);
+    grid-template-rows:repeat(3, 130px);
     row-gap: 4rem;
     margin-top: 16rem;
   }
