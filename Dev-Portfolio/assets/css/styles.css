@@ -1267,11 +1267,11 @@ qualification__name{
   }
 
   .projects__container{
-    width: 900;
+    width: 900px;
   }
 
   .projects__container .swiper-button-prev,
-  .projects__container .swiper-button-disabled{
+  .projects__container .swiper-button-next{
     font-size: 3rem;
   }
   .projects__container .swiper-button-prev{
