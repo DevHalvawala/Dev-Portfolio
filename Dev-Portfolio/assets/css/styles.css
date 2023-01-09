@@ -1116,6 +1116,7 @@ qualification__name{
 
   .nav__list{
     display: flex;
+    column-gap: 3rem;
   }
 
   .nav__link{
@@ -1162,7 +1163,7 @@ qualification__name{
 }
 
 @media screen and (min-width: 1048px){
-  .contaner{
+  .container{
     margin-inline: auto;
   }
 }
