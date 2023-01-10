@@ -712,8 +712,8 @@ qualification__name{
   content: '';
 } 
 
-.testimonial__container .swiper-button-prev::after,
-.testimonial__container .swiper-button-next::after{
+.testimonial__container .swiper-button-prev,
+.testimonial__container .swiper-button-next{
   font-size: 2rem;
   color: var(--title-color);
   width: initial;
